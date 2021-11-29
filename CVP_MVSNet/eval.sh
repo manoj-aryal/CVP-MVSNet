@@ -20,7 +20,7 @@ python3 eval.py \
 --mode="test" \
 \
 --dataset_root=$DATASET_ROOT \
---imgsize=346 \
+--imgsize=128 \
 --nsrc=4 \
 --nscale=5 \
 \
