@@ -132,3 +132,4 @@ dmypy.json
 
 # CVP-MVSNet local files
 checkpoints/*
+.DS_Store
