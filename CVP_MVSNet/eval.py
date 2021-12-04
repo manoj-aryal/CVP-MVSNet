@@ -73,7 +73,7 @@ def save_depth():
     model.load_state_dict(state_dict['model'],strict=False)
 
     with torch.no_grad():
-        print(test_loader)
+
         for batch_idx, sample in enumerate(test_loader):
 
             start_time = time.time()
